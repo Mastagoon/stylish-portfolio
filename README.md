@@ -5,6 +5,11 @@ Personal Portfolio Project
 - Fully resposive, mobile friendly design
 - Easy to edit and extend
 
+# Screenshots
+![Alt text](/screenshots/sc1.png?raw=true "Hero Section")
+<br>
+![Alt text](/screenshots/sc2.png?raw=true "Example Project Showcase")
+
 # Getting Started
 - To get started, just clone the repository and run `npm install && npm run dev`:
 ```
@@ -94,9 +99,9 @@ Example project:
 This project uses nodemailer to send mails from the contact form. 
 This needs you to provider an email and password for the account used to send the messages.
 To configure a gmail account, follow the instructions below:
-### 1- [Login to your gmail account](https://gmail.com)
-### 2- From your "Manage My Google Account" screen, find Sign-in & security > Signing in to Google > App Passwords
-### 3- Create and copy the app password, then copy and rename the .env file `cp .example.env .local.env` and configure it as shown below
+1. [Login to your gmail account](https://gmail.com)
+2. From your "Manage My Google Account" screen, find Sign-in & security > Signing in to Google > App Passwords
+3. Create and copy the app password, then copy and rename the .env file `cp .example.env .local.env` and configure it as shown below
 ```
 EMAIL_ADDRESS=text@gmail.com
 EMAIL_PASSWORD=somepw
