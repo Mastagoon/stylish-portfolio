@@ -6,7 +6,7 @@ Personal Portfolio Project
 - Easy to edit and extend
 
 # Getting Started
-1. To get started, just clone the repository and run `npm install && npm run dev`:
+- To get started, just clone the repository and run `npm install && npm run dev`:
 ```
 npm install
 npm run dev
@@ -17,7 +17,7 @@ yarn
 yarn dev
 ```
 
-2. Edit data/constants.ts to add your information
+- Edit data/constants.ts to add your information
 Example config:
 ```
 {
@@ -44,7 +44,7 @@ Example config:
 }
 ```
 
-3. Add your projects to data/projects.ts
+- Add your projects to data/projects.ts
 Example project:
 ```
   {
