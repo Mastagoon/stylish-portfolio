@@ -1,23 +1,23 @@
 Personal Portfolio Project
 
-## Features
+# Features
 - Ability to dynamically add projects	to the portfolio
 - Fully resposive, mobile friendly design
 - Easy to edit and extend
 
-## Getting Started
-1- To get started, just clone the repository and run `npm install && npm run dev`:
+# Getting Started
+1. To get started, just clone the repository and run `npm install && npm run dev`:
 ```
-	npm install
-	npm run dev
+npm install
+npm run dev
 ```
 Using yarn:
 ```
-  yarn
-	yarn dev
+yarn
+yarn dev
 ```
 
-2- Edit data/constants.ts to add your information
+2. Edit data/constants.ts to add your information
 Example config:
 ```
 {
@@ -44,7 +44,7 @@ Example config:
 }
 ```
 
-3- Add your projects to data/projects.ts
+3. Add your projects to data/projects.ts
 Example project:
 ```
   {
@@ -90,7 +90,7 @@ Example project:
   },
 ```
 
-### How to configure the contact me form
+# How to configure the contact me form
 This project uses nodemailer to send mails from the contact form. 
 This needs you to provider an email and password for the account used to send the messages.
 To configure a gmail account, follow the instructions below:
@@ -103,5 +103,5 @@ EMAIL_PASSWORD=somepw
 EMAIL_HOST=smtp.gmail.com
 ```
 
-### Building and deployment
+# Building and deployment
 Build to static files using `npm run build` or `yarn build`, you may then [deploy to vercel](https://nextjs.org/docs/deployment) or any hosting service of your choice. Note that the contact form uses a server function to work.
