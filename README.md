@@ -17,7 +17,7 @@ yarn
 yarn dev
 ```
 
-- Edit data/constants.ts to add your information
+### 1- Edit data/constants.ts to add your information
 Example config:
 ```
 {
@@ -44,7 +44,7 @@ Example config:
 }
 ```
 
-- Add your projects to data/projects.ts
+### 2- Add your projects to data/projects.ts
 Example project:
 ```
   {
@@ -94,9 +94,9 @@ Example project:
 This project uses nodemailer to send mails from the contact form. 
 This needs you to provider an email and password for the account used to send the messages.
 To configure a gmail account, follow the instructions below:
-1- [Login to your gmail account](https://gmail.com)
-2- From your "Manage My Google Account" screen, find Sign-in & security > Signing in to Google > App Passwords
-3- Create and copy the app password, then copy and rename the .env file `cp .example.env .local.env` and configure it as shown below
+### 1- [Login to your gmail account](https://gmail.com)
+### 2- From your "Manage My Google Account" screen, find Sign-in & security > Signing in to Google > App Passwords
+### 3- Create and copy the app password, then copy and rename the .env file `cp .example.env .local.env` and configure it as shown below
 ```
 EMAIL_ADDRESS=text@gmail.com
 EMAIL_PASSWORD=somepw
