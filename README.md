@@ -1,4 +1,4 @@
-Personal Portfolio Project
+Open source configurable portfolio project
 
 # Features
 - Ability to dynamically add projects	to the portfolio
