@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  background-color: #12203d;
+  margin: 0;
+  font-family: "MochiyPopOne", "sans-serif";
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MochiyPopOne";
+  src: url("../font/MochiyPopOne.ttf");
+}
